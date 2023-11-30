@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.imgTest {
+  width: 500px;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+fieldset {
+  width: 500px;
+  margin: 0 auto;
+}
+label {
+  padding: 10px;
+}
+.save {
+  padding: 10px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table,
+td {
+  border: 1px solid rgb(207, 205, 205);
+}
+table td {
+  padding: 5px 15px 5px 5px;
+  font-family: arial;
+}
+table tr:not(.header):hover {
+  background-color: rgb(233, 142, 142);
+  color: #000000;
+}
+.company-list {
+  width: 100px;
+}
+.header {
+  background-color: rgb(0, 255, 170);
+  color: aliceblue;
+}
+.row-1 {
+  background-color: rgb(235, 235, 235);
+}
+.action {
+  width: 100px;
+}

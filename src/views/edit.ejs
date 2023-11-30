@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/tytle.css" />
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="active" href="/abc">Home</a>
+      <a href="/create">Update User</a>
+    </div>
+    <form class="from" action="/update-user" method="post">
+      <fieldset>
+        <legend>FORM:</legend>
+        <br />
+        <label for="emali">email</label>
+        <input type="emali" name="email" value="<%= UserObj.email %>" />
+        <input
+          style="display: none"
+          type="emali"
+          name="id"
+          value="<%= UserObj.id %>"
+        />
+        <br />
+        <br />
+        <label>name</label>
+        <input type="text" name="name" value="<%= UserObj.name %>" />
+        <br />
+        <br />
+        <label for="city">city</label>
+        <input type="text" name="city" value="<%= UserObj.city %>" />
+        <br />
+        <br />
+        <button>save</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
